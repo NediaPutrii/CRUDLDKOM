@@ -94,8 +94,8 @@
                         <td><?php echo $pecah['alamat']; ?></td>
                         <td><img src="assets/<?php echo $pecah['image']; ?>" alt="" style="width:100px;height: 100px;"></td>
                         <td>
-                            <a  href="" ><span class="badge  bg-warning text-dark">Edit</span></a>
-                            <a  href="" ><span class="badge  bg-danger text-dark">Delete</span></a>
+                            <a  href="halamanedit.php?id=<?php echo $pecah['nim'];?>"><span class="badge  bg-warning text-dark">Edit</span></a>
+                            <a  href="hapus.php?id=<?php echo $pecah['nim'];?>" ><span class="badge  bg-danger text-dark">Delete</span></a>
                         </td>
                     </tr>
                 <?php

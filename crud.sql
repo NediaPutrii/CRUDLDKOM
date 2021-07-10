@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 02, 2021 at 02:45 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.7
+-- Generation Time: Jul 09, 2021 at 03:45 PM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 7.4.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -43,11 +42,12 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nama`, `nim`, `ttl`, `jk`, `asal`, `alamat`, `image`) VALUES
-('Nedia Putri Ismala', '1811521012', '2000-01-10', '1', 'Pekanbaru', 'Jl Anggur Blok I', 'foto1.jpg'),
-('Hanifa Alwi', '1011', '2021-07-25', '1', 'Pariaman', 'Jl Jalan', 'levis.png'),
-('Annisa Suptima', '1015', '2021-07-31', '2', 'Solok', 'Jl Buah Batu', 'awan.jpg'),
+('Hanifa ', '1011', '2021-07-25', '1', 'Pariaman', 'Jl Jalan', '12.png'),
+('Annisa Suptima', '1015', '2021-07-31', '', 'Solok', 'Jl Buah Batu', '5.png'),
 ('Dhinda Amalia K', '1002', '2021-08-03', '1', 'Bukittingi', 'Jl in aja dulu', 'dhinda.jpg'),
-('Budi', '1111', '2021-07-16', '2', 'Badnung', 'Jl Buah Batu', 'bts.jpg');
+('Budi', '1111', '2021-07-16', '2', 'Badnung', 'Jl Buah Batu', 'bts.jpg'),
+('farhan naufal otra', '2026', '2000-02-05', '2', 'padang', 'apdang', '1.png'),
+('puty syalima', '1811522014', '2021-11-21', '1', 'padang', 'padang', '4.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
